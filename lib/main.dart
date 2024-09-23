@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 // import 'package:flutter/basic';
 import 'package:flutter_application_1/data/data.dart';
+import 'package:flutter_application_1/data/image_widget.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -107,6 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const TextWidget(),
+            const MyImageWidget(),
             // const Text(
             //   'You have pushed the button this many times:',
             // ),
