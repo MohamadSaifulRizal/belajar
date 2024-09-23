@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-
+// import 'package:flutter/basic';
+import 'package:flutter_application_1/data/data.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -105,13 +106,14 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
+            const TextWidget(),
+            // const Text(
+            //   'You have pushed the button this many times:',
+            // ),
+            // Text(
+            //   '$_counter',
+            //   style: Theme.of(context).textTheme.headlineMedium,
+            // ),
           ],
         ),
       ),
