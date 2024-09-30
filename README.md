@@ -16,3 +16,4 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 Praktikum widget:
+![Screenshot 2024-09-30 111712](https://github.com/user-attachments/assets/cece0cb9-2fc5-45bb-81b1-00a3207c561d)
