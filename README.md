@@ -22,3 +22,5 @@ dalam gambar diatas praktikum telah selesai
 tugas widget:
 ![image](https://github.com/user-attachments/assets/1a9288ab-fb49-46b4-96e2-9efbb911521b)
 dalam gambar diatas saya menambahkan ikon bintang dengan warna merah
+![Screenshot 2024-10-01 194635](https://github.com/user-attachments/assets/44c3678f-5fd5-4c09-be54-583c62c87961)
+berikutnya ini saya menambahkan serta mengganti warna bintang
