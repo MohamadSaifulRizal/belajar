@@ -6,9 +6,36 @@ void main() {
   runApp(const MyApp());
 }
 
+
+@override
+Widget build(BuildContext context) {
+  return MaterialApp(
+    home: Scaffold(
+      appBar: AppBar(
+        title: Text('Judul Aplikasi Anda'),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text('Halo, Flutter!'),
+            ElevatedButton(
+              onPressed: () {
+                // Aksi ketika tombol ditekan
+              },
+              child: Text('Tekan Saya'),
+            ),
+          ],
+        ),
+      ),
+    ),
+  );
+}
+
+
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
 
   // This widget is the root of your application.
   @override
@@ -73,6 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    
     // This method is rerun every time setState is called, for instance as done
     // by the _incrementCounter method above.
     //
@@ -90,6 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
+        
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         child: Column(
@@ -110,10 +139,23 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             const TextWidget(),
             const MyImageWidget(),
-            Icon(
-  Icons.star,
-  color: Colors.red[500],
-),
+
+
+Column(
+  children: <Widget>[
+    Row(
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      children: <Widget>[
+        Icon(Icons.home),
+        Icon(Icons.star),
+        Icon(Icons.settings),
+      ],
+    ),
+    Text('Selamat Datang di Aplikasi'),
+  ],
+)
+
+
   
             // const Text(
             //   'You have pushed the button this many times:',
